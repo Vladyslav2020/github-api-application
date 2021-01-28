@@ -6,9 +6,10 @@ import '../styles/usersList.css';
 
 const ReposList = (props) => {
     const data = props.data
+    console.log(data.repos);
     let List = data.repos.filter(item => !data.searchLine || item.name.startsWith(data.searchLine)).map(item => <RepoItem name = {item.name} 
     forks = {item.forks} stars = {item.stars} url = {item.url} key = {item.id}/>);
-    if (!List.length)
+    if (!data.repos.length)
         List = <div className = 'message'>No data</div>;
     return (
         <ul className = 'repos-list'>
