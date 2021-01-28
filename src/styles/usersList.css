@@ -1,0 +1,63 @@
+.users-list{
+    width: 100%;
+    padding: 0;
+}
+
+.users-list .user-item:first-child{
+    border-top: 3px solid rgb(160, 160, 160);
+}
+
+.user-item{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(160, 160, 160);
+}
+
+.user-item:hover{
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+
+::placeholder{
+    color: gray;
+    font-size: 20px;
+}
+
+.user-item .avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(133, 133, 133);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+.user-item .avatar img{
+    width: inherit;
+    height: inherit;
+}
+
+.user-item .user-name{
+    font-size: 25px;
+    color: rgb(107, 120, 163);
+}
+
+.user-item .repos{
+    font-size: 25px;
+    color: rgb(107, 120, 163);
+}
+
+.message{
+    color:brown;
+    padding: 3px 10px 3px 20px;
+    font-size: 20px;
+}

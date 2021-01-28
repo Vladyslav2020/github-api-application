@@ -1,0 +1,48 @@
+.repos-list{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.repo-item{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(160, 160, 160);
+    color: rgb(107, 120, 163);
+}
+
+.repo-item:hover{
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+
+.repos-list .repo-item:first-child{
+    border-top: 3px solid rgb(160, 160, 160);
+}
+
+.repo-item .name{
+    display: inline-block;
+    width: calc(100% - 120px);
+    box-sizing: border-box;
+    font-size: 23px;
+    padding-left: 10px;
+}
+
+.repo-item .data{
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.data .forks{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.data .stars{
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}

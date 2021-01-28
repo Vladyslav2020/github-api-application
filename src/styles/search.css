@@ -1,0 +1,20 @@
+.search{
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+    box-sizing: border-box;
+}
+
+.search input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3px 15px 3px 15px;
+    font-size: 23px;
+    color: rgb(103, 103, 255);
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 4px;
+}
+
+.search input:focus{
+    outline-color: rgb(82, 82, 255);
+    outline-width: 5px;
+}
